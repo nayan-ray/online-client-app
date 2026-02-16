@@ -1,0 +1,22 @@
+.note-item{
+   display: flex;
+   gap: 15px;
+}
+.note-number{
+    width: 30px;
+    font-weight: 700;
+}
+.note-body{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.body-bottom{
+    text-align: justify;
+}
+.note-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

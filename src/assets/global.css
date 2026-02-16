@@ -1,0 +1,129 @@
+.common-wrapper{
+    max-width: 1150px;
+    margin: 0 auto 60px;
+    position: relative;
+    padding:0 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.numbering-gap{
+    display: flex;
+    gap: 15px;
+}
+.number-text{
+    width: 30px;
+    font-weight: 700;
+}
+.body-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.body-justify{
+    text-align: justify;
+}
+.list-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.answer-text{
+    cursor: pointer;
+    
+}
+.answer-text:hover{
+    background-color: lightgray;
+}
+.box {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: 
+    max-height 1s ease,
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.box.open {
+  max-height: 2000px;
+  opacity: 1;
+  transform: translateY(0);
+}
+.answer-body {
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.option-box{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 16px;
+}
+.option-item{
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    text-align: left;
+}
+/* .option-item:hover{
+    background-color: lightgray;
+} */
+
+.tick{
+    background-color: gray;
+}
+
+.take-email-container{
+    background-color: rebeccapurple;
+    height: calc(100vh - 75px);
+    overflow: hidden;
+}
+.submit-btn{
+    display: inline-block;
+    background-color: gray;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.submit-btn.activate{
+   background-color: #3d7935;
+}
+
+.details-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+.update-profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.update-btn{
+    display: inline-block;
+    background-color: gray;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}

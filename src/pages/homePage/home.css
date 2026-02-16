@@ -1,0 +1,47 @@
+.header-gap{
+  margin: 0 auto 0;
+}
+.home-background{
+    overflow: hidden;   
+    height: calc(100vh - 72px);
+    background-image: url("../../assets/images/sunrise.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.text-section{
+    max-width: 800px;
+    margin: 50px auto 0;
+    padding: 0 20px;
+}
+
+.main-text{
+    font-size: 36px;
+    font-weight: 700;
+    color: #3c4e4a;
+    text-align: center;
+}
+
+@media only screen and (max-width : 680px){
+    .main-text{
+       font-size: 33px;
+    }
+}
+@media only screen and (max-width : 600px){
+    .main-text{
+       font-size: 30px;
+    }
+}
+
+@media only screen and (max-width : 500px){
+    .main-text{
+       font-size: 24px;
+    }
+}
+
+@media only screen and (max-width : 351px){
+    .main-text{
+       font-size: 20px;
+    }
+}
