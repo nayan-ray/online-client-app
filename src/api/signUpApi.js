@@ -2,7 +2,7 @@ import axios from "axios"
 import {store} from "../app/store"
 import { hideLoader, showLoader } from "../features/loader/loaderSlice"
 import { removeStudentLocal, setStudentLocal } from "../helper/auth"
-import { baseURL } from "./baseUrl"
+const baseURL =  "https://assignment16-g2pa.onrender.com"
 
 export const authApi = async(student)=>{
     try {

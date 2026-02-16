@@ -6,7 +6,7 @@ import { removeStudentLocal } from "../helper/auth"
 
 
 import { setNote } from "../features/note/noteSlice"
-import { baseURL } from "./baseUrl"
+const baseURL =  "https://assignment16-g2pa.onrender.com"
 
 
 export const noteApi = async(setStudent, navigate, unitId, unitName)=>{

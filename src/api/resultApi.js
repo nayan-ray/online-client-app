@@ -7,7 +7,7 @@ import { removeStudentLocal } from "../helper/auth"
 
 
 import { setResult } from "../features/result/resultSlice"
-import { baseURL } from "./baseUrl"
+const baseURL =  "https://assignment16-g2pa.onrender.com"
 
 
 export const resultApi = async(setStudent, navigate)=>{

@@ -3,7 +3,7 @@ import {store} from "../app/store"
 import { hideLoader, showLoader } from "../features/loader/loaderSlice"
 import { removeStudentLocal } from "../helper/auth"
 import { setQuiz } from "../features/quiz/quizSlice"
-import { baseURL } from "./baseUrl"
+const baseURL =  "https://assignment16-g2pa.onrender.com"
 
 
 export const quizApi = async(setStudent, navigate, unitId, unitName)=>{

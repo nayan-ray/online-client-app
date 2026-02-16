@@ -5,7 +5,7 @@ import { hideLoader, showLoader } from "../features/loader/loaderSlice"
 import { removeStudentLocal } from "../helper/auth"
 
 import { setQuestion } from "../features/question/questionSlice"
-import { baseURL } from "./baseUrl"
+const baseURL =  "https://assignment16-g2pa.onrender.com"
 
 
 export const questionApi = async(setStudent, navigate, unitId, unitName)=>{

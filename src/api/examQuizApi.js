@@ -7,7 +7,7 @@ import { removeStudentLocal } from "../helper/auth"
 
 
 import { setExamQuiz } from "../features/examQuiz/examQuizSlice"
-import { baseURL } from "./baseUrl"
+const baseURL =  "https://assignment16-g2pa.onrender.com"
 
 
 export const examQuizApi = async(setStudent, navigate, unitId, unitName)=>{

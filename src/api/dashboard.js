@@ -4,7 +4,7 @@ import { hideLoader, showLoader } from "../features/loader/loaderSlice"
 import { setSubjects } from "../features/dashboard/dashboardSlice"
 import { removeStudentLocal } from "../helper/auth"
 import { replace } from "react-router-dom"
-import { baseURL } from "./baseUrl"
+const baseURL =  "https://assignment16-g2pa.onrender.com"
 
 
 export const dashboardApi = async(setStudent, navigate)=>{
